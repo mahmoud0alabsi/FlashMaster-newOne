@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Site Metas -->
+    <title>Flash Master</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="{{ url_for('static',filename='images/favicon.png')}}" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="{{ url_for('static',filename='images/apple-touch-icon.png')}}">
+    
+    <!-- Design fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet"> 
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static',filename='/css/bootstrap.css')}}" rel="stylesheet">
+
+    <!-- FontAwesome Icons core CSS -->
+    <link href="{{ url_for('static',filename='/css/font-awesome.min.css')}}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{{ url_for('static',filename='/css/style.css')}}" rel="stylesheet">
+
+    <!-- Responsive styles for this template -->
+    <link href="{{ url_for('static',filename='/css/responsive.css')}}" rel="stylesheet">
+
+    <!-- Colors for this template -->
+    <link href="{{ url_for('static',filename='/css/colors.css')}}" rel="stylesheet">
+
+    <!-- Version Tech CSS for this template -->
+    <link href="{{ url_for('static',filename='/css/version/tech.css')}}" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <header class="tech-header header">
+            <div class="container-fluid">
+                <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="{{ url_for('index')}}"><img src="{{ url_for('static',filename='images/version/tech-logo.png')}}" alt=""></a>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('index')}}">Home</a>
+                            </li>
+                            
+                                               
+                            
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('ContactUs')}}">Contact Us</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav mr-2">
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa fa-android"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa fa-apple"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div><!-- end container-fluid -->
+        </header><!-- end market-header -->
+
+        <div class="page-title lb single-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <h2><i class="fa fa-envelope-open-o bg-orange"></i> Contact us </h2>
+                    </div><!-- end col -->
+                    <div class="col-lg-4 col-md-4 col-sm-12 hidden-xs-down hidden-sm-down">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="{{ url_for('index')}}">Home</a></li>
+                            <li class="breadcrumb-item active">Contact</li>
+                        </ol>
+                    </div><!-- end col -->                    
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </div><!-- end page-title -->
+
+        <section class="section wb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="page-wrapper">
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <h4>Who we are</h4>
+                                    <p>Tech Blog is a personal blog for handcrafted, cameramade photography content, fashion styles from independent creatives around the world.</p>
+                   
+                                    <h4>How we help?</h4>
+                                    <p>Etiam vulputate urna id libero auctor maximus. Nulla dignissim ligula diam, in sollicitudin ligula congue quis turpis dui urna nibhs. </p>
+             
+                                    <h4>Pre-Sale Question</h4>
+                                    <p>Fusce dapibus nunc quis quam tempor vestibulum sit amet consequat enim. Pellentesque blandit hendrerit placerat. Integertis non.</p>
+                                </div>
+                                <div class="col-lg-7">
+                                    <form class="form-wrapper">
+                                        <input type="text" class="form-control" placeholder="Your name">
+                                        <input type="text" class="form-control" placeholder="Email address">
+                                        <input type="text" class="form-control" placeholder="Phone">
+                                        <input type="text" class="form-control" placeholder="Subject">
+                                        <textarea class="form-control" placeholder="Your message"></textarea>
+                                        <button type="submit" class="btn btn-primary">Send <i class="fa fa-envelope-open-o"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div><!-- end page-wrapper -->
+                    </div><!-- end col -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="widget">
+                            <div class="footer-text text-left">
+                                <a href="{{ url_for('index')}}"><img src="{{ url_for('static',filename='images/version/tech-footer-logo.png')}}" alt="" class="img-fluid"></a>
+                                <p></p>
+                                <div class="social">
+                                    <!-- <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Facebook"><i class="fa fa-facebook"></i></a>              
+                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Instagram"><i class="fa fa-instagram"></i></a>
+                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Google Plus"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Pinterest"><i class="fa fa-pinterest"></i></a> -->
+                                </div>
+
+                                <hr class="invis">
+
+                                <!-- end newsletter -->
+                            </div><!-- end footer-text -->
+                        </div><!-- end widget -->
+                    </div><!-- end col -->
+
+                    <!-- end col -->
+
+                    <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12">
+                        <div class="widget">
+                            <h2 class="widget-title">Copyrights</h2>
+                            <div class="link-widget">
+                                <ul>
+                                    <li><a href="{{ url_for('index')}}">Home</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    
+                                    
+                                    
+                                </ul>
+                            </div><!-- end link-widget -->
+                        </div><!-- end widget -->
+                    </div><!-- end col -->
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <br>
+                        <div class="copyright">© FlashMaster. Design: <a href="#">MahmoudAlabsi</a>.</div>
+                    </div>
+                </div>
+            </div><!-- end container -->
+        </footer><!-- end footer -->
+
+        <div class="dmtop" style="bottom: 25px;">Scroll to Top</div>
+        
+    </div><!-- end wrapper -->
+
+    <!-- Core JavaScript
+    ================================================== -->
+    <script src="{{ url_for('static',filename='/js/jquery.min.js')}}"></script>
+    <script src="{{ url_for('static',filename='/js/tether.min.js')}}"></script>
+    <script src="{{ url_for('static',filename='/js/bootstrap.min.js')}}"></script>
+    <script src="{{ url_for('static',filename='/js/custom.js')}}"></script>
+    
+
+
+</body>
+
+</html>
