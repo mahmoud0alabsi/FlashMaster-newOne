@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'FlashMaster'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_98DB68C481274FEEA4B2F96F45CCCC08 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A7362B9B5FF9430AB7BE682CA0C158FA }}
